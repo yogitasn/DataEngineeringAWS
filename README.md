@@ -7,13 +7,12 @@ The log and song data is loaded from s3 into staging_events and staging_songs ta
 The final table <strong><em>'songplays'</em></strong> fetches the song and artist information from staging_events and staging_songs table. The other tables 'user','songs','artists' and 'time' data is also inserted either from staging_events or staging_songs<br>
 Perform following steps to get data into the tables <br>
 <ol>
-<li>Define the schema, drop, create tables, load from s3 and insert them in final tables in sql_queries.py.
-    Execute the following steps</li> 
+Define the schema, drop, create tables, load from s3 and insert them in final tables in sql_queries.py.Execute the following steps
 <li>python create_tables.py</li>
     <p>This will drop any existing tables and create the fact and dimension tables</p>
 <li>python etl.py</li>
     <p>This python file will load the staging tables and insert records in final tables for analysis</p>
 </ol>
 <strong>The final table 'songplays'  have the songs and user activity ready for the Sparkify analytical team displayed as below</strong>
-<img src="songplays_table.png" width="1000" height="400" alt="Screenshot"/>
+<img src="Screenshots/songplays_table.PNG" width="1000" height="400" alt="Screenshot"/>
 </p> 
