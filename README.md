@@ -15,5 +15,5 @@ Perform following steps to get data into the tables <br>
     <p>This python file will load the staging tables and insert records in final tables for analysis</p>
 </ol>
 <strong>The below final table 'songplays' have the songs and user activity ready for the Sparkify analytical team displayed as below</strong>
-<img src="songplays_table.png" width="1000" height="400" alt="Screenshot"/>
+<img src="Screenshots/songplays_table.png" width="1500" height="400" alt="Screenshot"/>
 </p> 
