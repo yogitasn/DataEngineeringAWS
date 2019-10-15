@@ -13,5 +13,5 @@ Perform following steps to get data into the tables <br>
     <p>This python file will load the staging tables and insert records in final tables and save them parquet files for analysis</p>
 </ol>
 <strong>The below final song,artist and user tables has the details loaded from song and log table</strong>
-<img src="Screenshots/DataLakeScreenshots.PNG" width="1500" height="400" alt="Screenshot"/>
+<img src="DataLakeScreenshots.PNG" width="1500" height="400" alt="Screenshot"/>
 </p> 
