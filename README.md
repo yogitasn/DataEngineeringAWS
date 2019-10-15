@@ -15,5 +15,5 @@ Perform following steps to get data into the tables <br>
 <strong>The below final table 'songplays' have the songs and user activity ready for the Sparkify analytical team displayed as below</strong>
 <img src="DataLakeScreenshots.PNG" width="1500" height="400" alt="Screenshot"/>
 <strong>The below final User Table has the user details loaded from the staging events</strong>
-<img src="DataLakeUsersTable.PNG" width="500" height="400" alt="Screenshot"/>
+<img src="DataLakeUsersTable.PNG" width="200" height="200" alt="Screenshot"/>
 </p> 
